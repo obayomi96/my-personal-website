@@ -8,7 +8,8 @@ const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
       <p>
-        Hi there! I'm the proud creator of this site, which I built with Gatsby.
+        Hi there! I'm Martins. I'm the proud creator of this site, which I built
+        with Gatsby... More to come!
       </p>
     </Layout>
   );
@@ -16,7 +17,7 @@ const AboutPage = () => {
 
 export const Head = () => (
   <>
-    <title>About Martins</title>
+    <title>Martins Obayomi | About</title>
     <meta name="description" content="Martins Obayomi, Lagos Nigeria" />
   </>
 );
