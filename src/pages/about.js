@@ -58,7 +58,7 @@ const AboutPage = () => {
           best practices to solve technical problems and build useful things.
         </p>
         <p>
-          Some of my work includes being on the core dev-team on{" "}
+          Some of my work includes being on the core dev-team that built{" "}
           <a href="https://templehs.com">TempleHS</a>,{" "}
           <a href="https://chrome.google.com/webstore/detail/internet-speed/hfdeahhjljnjddcjoglpodojkmeiahbl">
             Internet Speed

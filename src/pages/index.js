@@ -11,15 +11,12 @@ const IndexPage = () => {
       >
         <div>
           <p>
-            Hi there!, I'm <b>Martins</b>, I'm full-stack developer from Lagos,
-            Nigeria.
+            Hi there! thanks for stopping by, I'm <b>Martins</b>, I'm full-stack
+            developer from Lagos, Nigeria.
           </p>
         </div>
         <div>
-          <StaticImage
-            alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-            src="../images/image-intro.gif"
-          />
+          <StaticImage alt="Intro" src="../images/image-intro.gif" />
         </div>
       </div>
       <p>
