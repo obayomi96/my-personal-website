@@ -3,25 +3,37 @@ import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
 import Seo from "../components/seo";
 
-// Step 2: Define your component
 const IndexPage = () => {
   return (
-    <Layout pageTitle="Home Page">
-      <p>I'm making this by following the Gatsby's official documentation.</p>
-      <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
-      />
+    <Layout pageTitle="Welcome to my personal Website">
+      <div
+        style={{ display: "flex", alignItems: "baseline", flexWrap: "wrap" }}
+      >
+        <div>
+          <p>
+            Hi there!, I'm <b>Martins</b>, I'm full-stack developer from Lagos,
+            Nigeria.
+          </p>
+        </div>
+        <div>
+          <StaticImage
+            alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+            src="../images/image-intro.gif"
+          />
+        </div>
+      </div>
+      <p>
+        P.S: I built this website from scratch with{" "}
+        <a href="https://www.gatsbyjs.com/docs/">Gatsby</a>.
+      </p>
     </Layout>
   );
 };
 
-// You'll learn about this in the next task, just copy it for now
 export const Head = () => (
   <title>
     <Seo title="Home" />
   </title>
 );
 
-// Step 3: Export your component
 export default IndexPage;

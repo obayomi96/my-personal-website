@@ -2,15 +2,79 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import { StaticImage } from "gatsby-plugin-image";
 
 // Step 2: Define your component
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <p>
-        Hi there! I'm Martins. I'm the proud creator of this site, which I built
-        with Gatsby... More to come!
-      </p>
+      <div>
+        <div>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "center",
+              overflow: "hidden",
+              borderRadius: "100%",
+            }}
+          >
+            <StaticImage
+              width={200}
+              height={200}
+              alt="Profile headshot"
+              src="../images/my-image.png"
+            />
+          </div>
+        </div>
+        <p>
+          <b>Experience</b>
+        </p>
+        <p>
+          I have four years of professional experience in web developmemt using
+          JavaScript, React, and NodeJS. Having graduated from a rigorous
+          Bootcamp at Andela in 2019, I have successfully worked with several
+          fast-paced, cross-cultural, distributed, high-performing engineering
+          teams.
+        </p>
+        <p>
+          I have a strong background in using JavaScript and related libraries
+          for technical problem-solving, and a proven ability to quickly learn
+          and adapt to new tools and technologies; I also have a keen interest
+          in building small useful tools and putting them out for public use,
+          I’m an open-source enthusiast.
+        </p>
+        <p>
+          I'm always interested in working with any team that is constantly
+          innovating or inventing new ways of making things better. My
+          objectives are to deliver value as soon as possible by aligning with
+          the business model & mission, and dedicating myself to using industry
+          best practices to solve technical problems and build useful things.
+        </p>
+        <p>
+          Some of my work includes being on the core dev-team on{" "}
+          <a href="https://templehs.com">TempleHS</a>, a few other open sourse
+          tools and contributions. I also just learnt to build Django apps with
+          Python and I'm loving it!.
+        </p>
+        <p>
+          You can follow the rest of my work & contributions on my{" "}
+          <a href="https://github.com/obayomi96">Github</a>
+        </p>
+        <p>
+          <b>Interests</b>
+        </p>
+        <p>
+          I enjoy coffee and constantly explore different brewing methods, I
+          also like art, the beach, music, and dogs.
+        </p>
+        <p>
+          Feel free to contact me on{" "}
+          <a href="https://www.linkedin.com/in/martins-obayomi-998202162/">
+            LinkedIn
+          </a>
+          , I'll add a contact form later{" "}
+        </p>
+      </div>
     </Layout>
   );
 };

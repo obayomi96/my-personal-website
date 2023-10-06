@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: " Obayomi Martins Gatsby site",
-    description: "My very first gatsby blog site",
+    title: "Martins Obayomi",
+    description: "My personal porforlio website build from scratch with Gatsby",
     siteUrl: `https://benevolent-genie-569de2.netlify.app`,
   },
   plugins: [
