@@ -14,16 +14,23 @@ const AboutPage = () => {
             style={{
               display: "flex",
               justifyContent: "center",
-              overflow: "hidden",
-              borderRadius: "100%",
             }}
           >
-            <StaticImage
-              width={200}
-              height={200}
-              alt="Profile headshot"
-              src="../images/my-image.png"
-            />
+            <div
+              style={{
+                overflow: "hidden",
+                width: "200px",
+                height: "200px",
+                borderRadius: "100%",
+              }}
+            >
+              <StaticImage
+                width={200}
+                height={200}
+                alt="Profile headshot"
+                src="../images/my-image.png"
+              />
+            </div>
           </div>
         </div>
         <p>
