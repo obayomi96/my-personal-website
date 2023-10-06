@@ -59,10 +59,10 @@ const AboutPage = () => {
         </p>
         <p>
           Some of my work includes being on the core dev-team that built{" "}
-          <a href="https://templehs.com">TempleHS</a>,{" "}
+          <a href="https://templehs.com">TempleHS</a>, I also built{" "}
           <a href="https://chrome.google.com/webstore/detail/internet-speed/hfdeahhjljnjddcjoglpodojkmeiahbl">
             Internet Speed
-          </a>{" "}
+          </a>
           , and a few other open sourse tools and contributions. I also just
           learnt to build Django apps with Python and I'm loving it!.
         </p>
@@ -75,8 +75,8 @@ const AboutPage = () => {
         </p>
         <p>
           I enjoy coffee and I constantly explore different brewing methods, I'm
-          a plant enthusiast, and I bird. I also have interest in arts, sports,
-          music, and the beach on a cool day.
+          a plant enthusiast, and I enjoy birding. I also have interest in arts,
+          sports, music, and the beach on a cool day.
         </p>
         <p>
           Feel free to contact me on{" "}
