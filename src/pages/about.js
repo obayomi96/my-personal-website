@@ -59,9 +59,12 @@ const AboutPage = () => {
         </p>
         <p>
           Some of my work includes being on the core dev-team on{" "}
-          <a href="https://templehs.com">TempleHS</a>, a few other open sourse
-          tools and contributions. I also just learnt to build Django apps with
-          Python and I'm loving it!.
+          <a href="https://templehs.com">TempleHS</a>,{" "}
+          <a href="https://chrome.google.com/webstore/detail/internet-speed/hfdeahhjljnjddcjoglpodojkmeiahbl">
+            Internet Speed
+          </a>{" "}
+          , and a few other open sourse tools and contributions. I also just
+          learnt to build Django apps with Python and I'm loving it!.
         </p>
         <p>
           You can follow the rest of my work & contributions on my{" "}
@@ -71,15 +74,16 @@ const AboutPage = () => {
           <b>Interests</b>
         </p>
         <p>
-          I enjoy coffee and constantly explore different brewing methods, I
-          also like art, the beach, music, and dogs.
+          I enjoy coffee and I constantly explore different brewing methods, I'm
+          a plant enthusiast, and I bird. I also have interest in arts, sports,
+          music, and the beach on a cool day.
         </p>
         <p>
           Feel free to contact me on{" "}
           <a href="https://www.linkedin.com/in/martins-obayomi-998202162/">
             LinkedIn
           </a>
-          , I'll add a contact form later{" "}
+          , I'll add a contact form soon!{" "}
         </p>
       </div>
     </Layout>
