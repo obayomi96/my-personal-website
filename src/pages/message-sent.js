@@ -11,11 +11,6 @@ const messageSsent = () => {
           Your message has been sent!, you'll hear back from me soon. Thanks for
           reaching out.
         </p>
-        <div style={{ paddingTop: "20px" }}>
-          <Link to="/about">
-            <h1> Go back </h1>
-          </Link>
-        </div>
       </div>
     </Layout>
   );
