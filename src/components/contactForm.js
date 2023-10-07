@@ -48,7 +48,7 @@ const ContactForm = () => {
         setLoading(false);
       });
   };
-  
+
   return (
     <div className="App">
       <div class="form">
@@ -81,7 +81,9 @@ const ContactForm = () => {
               onChange={handleChange()}
             />
           </div>
-          <button type="submit">Send</button>
+          <button disabled={loading} type="submit">
+            {loading ? "Sending" : "Send"}
+          </button>
           {formStatus && <p>Message sent.</p>}
         </form>
       </div>
