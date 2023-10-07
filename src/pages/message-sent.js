@@ -6,7 +6,7 @@ import Seo from "../components/seo";
 const messageSsent = () => {
   return (
     <Layout pageTitle="Message Sent Successfully">
-      <div style={{ textAlign: "center", marginTop: "20%" }}>
+      <div style={{ textAlign: "center", marginTop: "20px" }}>
         <p>
           Your message has been sent!, you'll hear back from me soon. Thanks for
           reaching out.
