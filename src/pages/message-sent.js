@@ -1,20 +1,31 @@
 import { Link } from "gatsby";
 import React from "react";
+import Layout from "../components/layout";
 
 const messageSsent = () => {
   return (
-    <div style={{ textAlign: "center", marginTop: "20%" }}>
-      <p>
-        Your message has been sent!, you'll hear back from me soon. Thanks for
-        reaching out.
-      </p>
-      <div style={{ paddingTop: "20px" }}>
-        <Link to="/about">
-          <h1> Go back </h1>
-        </Link>
+    <Layout pageTitle="Message Sent Successfully">
+      <div style={{ textAlign: "center", marginTop: "20%" }}>
+        <p>
+          Your message has been sent!, you'll hear back from me soon. Thanks for
+          reaching out.
+        </p>
+        <div style={{ paddingTop: "20px" }}>
+          <Link to="/about">
+            <h1> Go back </h1>
+          </Link>
+        </div>
       </div>
-    </div>
+    </Layout>
   );
 };
+
+export const Head = () => (
+  <>
+    <title>
+      <Seo title="Message Sent" />
+    </title>
+  </>
+);
 
 export default messageSsent;
