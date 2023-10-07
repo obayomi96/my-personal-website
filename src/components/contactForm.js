@@ -33,7 +33,7 @@ const ContactForm = () => {
       .post(process.env.GATSBY_FORM_API_URL, formData, {
         headers: { Accept: "application/json" },
       })
-      .then(function (response) {
+      .then((response) => {
         setFormStatus(true);
         setQuery({
           name: "",
@@ -43,7 +43,7 @@ const ContactForm = () => {
         setLoading(false);
         navigate("/message-sent");
       })
-      .catch(function (error) {
+      .catch((error) => {
         alert("Error sending message", error);
         setLoading(false);
       });

@@ -80,8 +80,8 @@ const AboutPage = () => {
         </p>
         <p>
           I enjoy coffee and I constantly explore different brewing methods, I'm
-          a plant enthusiast, and I enjoy birding. I also have interest in arts,
-          sports, music, and the beach on a cool day.
+          a plant enthusiast and I enjoy birding. I also have interest in arts,
+          sports, and the beach on a cool day.
         </p>
         <p>
           <b>Connect with me</b>
@@ -95,34 +95,11 @@ const AboutPage = () => {
           <a href="https://stackoverflow.com/users/9985506/martins">
             StackOverflow
           </a>{" "}
-          accounts, you could also reach out regarding project ideas, questions,
-          or just to say hello using the contact form below!{" "}
+          profiles, using the contact form below, you could also reach out
+          regarding project ideas, questions, or just to say hello!{" "}
         </p>
 
         <ContactForm />
-
-        {/* <div>
-          <form
-            action="https://getform.io/f/4f1ac81b-2b77-4673-9f90-9d8e83ae8374"
-            method="POST"
-          >
-            <div>
-              <input placeholder="Your name" type="text" name="name" />
-            </div>
-            <div>
-              <input placeholder="Your email" type="email" name="email" />
-            </div>
-            <div>
-              <textarea
-                placeholder="Message"
-                rows={3}
-                type="text"
-                name="message"
-              />
-            </div>
-            <button type="submit">Send</button>
-          </form>
-        </div> */}
       </div>
     </Layout>
   );
