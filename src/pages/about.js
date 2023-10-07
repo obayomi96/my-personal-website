@@ -2,6 +2,7 @@
 import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
+import ContactForm from "../components/contactForm";
 import { StaticImage } from "gatsby-plugin-image";
 
 // Step 2: Define your component
@@ -83,12 +84,45 @@ const AboutPage = () => {
           sports, music, and the beach on a cool day.
         </p>
         <p>
-          Feel free to contact me on{" "}
+          <b>Connect with me</b>
+        </p>
+        <p>
+          Feel free to check my{" "}
           <a href="https://www.linkedin.com/in/martins-obayomi-998202162/">
             LinkedIn
           </a>
-          , I'll add a contact form soon!{" "}
+          , and{" "}
+          <a href="https://stackoverflow.com/users/9985506/martins">
+            StackOverflow
+          </a>{" "}
+          accounts, you could also reach out regarding project ideas, questions,
+          or just to say hello using the contact form below!{" "}
         </p>
+
+        <ContactForm />
+
+        {/* <div>
+          <form
+            action="https://getform.io/f/4f1ac81b-2b77-4673-9f90-9d8e83ae8374"
+            method="POST"
+          >
+            <div>
+              <input placeholder="Your name" type="text" name="name" />
+            </div>
+            <div>
+              <input placeholder="Your email" type="email" name="email" />
+            </div>
+            <div>
+              <textarea
+                placeholder="Message"
+                rows={3}
+                type="text"
+                name="message"
+              />
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </div> */}
       </div>
     </Layout>
   );
