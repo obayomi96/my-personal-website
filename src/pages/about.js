@@ -60,11 +60,15 @@ const AboutPage = () => {
         <p>
           Some of my work includes being on the core dev-team that built{" "}
           <a href="https://templehs.com">TempleHS</a>, I also built{" "}
+          <a href="https://chrome.google.com/webstore/detail/blink-alert/ecdcckdocbdegecfpmdgblfaiaplggob">
+            Blink Alert
+          </a>
+          ,{" "}
           <a href="https://chrome.google.com/webstore/detail/internet-speed/hfdeahhjljnjddcjoglpodojkmeiahbl">
             Internet Speed
           </a>
-          , and a few other open sourse tools and contributions. I also just
-          learnt to build Django apps with Python and I'm loving it!.
+          , and a few other tools and contributions. I also just learnt to build
+          Django apps with Python and I'm loving it!.
         </p>
         <p>
           You can follow the rest of my work & contributions on my{" "}
