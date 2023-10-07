@@ -90,7 +90,13 @@ const AboutPage = () => {
           , I'll add a contact form soon!{" "}
         </p>
         <div>
-          <form name="contact" netlify>
+          <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            <input type="text" name="name" />
+            <input type="email" name="email" />
+            <textarea name="message"></textarea>
+          </form>
+          <form name="contact" method="POST" netlify>
+            <input type="hidden" name="form-name" value="contact" />
             <p>
               <label>
                 Name <input type="text" name="name" />
@@ -103,13 +109,9 @@ const AboutPage = () => {
             </p>
 
             <p>
-              {/* <label>Message</label> */}
-              <textarea
-                placeholder="Message"
-                rows={3}
-                type="text"
-                name="message"
-              />
+              <label>
+                Message: <textarea rows={2} name="message"></textarea>
+              </label>
             </p>
             <p>
               <button type="submit">Send</button>
