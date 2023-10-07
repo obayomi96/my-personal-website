@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Martins Obayomi",
     description: "My personal porforlio website build from scratch with Gatsby",
-    siteUrl: `https://benevolent-genie-569de2.netlify.app`,
+    siteUrl: `https://obayomi-personal-site.netlify.app/`,
   },
   plugins: [
     "gatsby-plugin-image",
