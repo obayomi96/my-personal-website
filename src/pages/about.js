@@ -89,6 +89,33 @@ const AboutPage = () => {
           </a>
           , I'll add a contact form soon!{" "}
         </p>
+        <div>
+          <form name="contact" netlify>
+            <p>
+              <label>
+                Name <input type="text" name="name" />
+              </label>
+            </p>
+            <p>
+              <label>
+                Email <input type="email" name="email" />
+              </label>
+            </p>
+
+            <p>
+              {/* <label>Message</label> */}
+              <textarea
+                placeholder="Message"
+                rows={3}
+                type="text"
+                name="message"
+              />
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
+        </div>
       </div>
     </Layout>
   );
