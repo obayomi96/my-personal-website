@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import axios from "axios";
 import { navigate } from "gatsby";
 
+import "../contactform.css";
+
 const ContactForm = () => {
   const [formStatus, setFormStatus] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -50,10 +52,14 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="App">
-      <div class="form">
-        <form enctype="multipart/form-data" onSubmit={handleSubmit}>
-          <div class="form-group">
+    <div classNameName="App">
+      <div className="form f-container">
+        <form
+          id="contact"
+          enctype="multipart/form-data"
+          onSubmit={handleSubmit}
+        >
+          <div className="form-group">
             <input
               type="text"
               name="name"
@@ -62,7 +68,7 @@ const ContactForm = () => {
               onChange={handleChange()}
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <input
               type="email"
               name="email"
@@ -71,7 +77,7 @@ const ContactForm = () => {
               onChange={handleChange()}
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <textarea
               placeholder="Message"
               rows={3}
