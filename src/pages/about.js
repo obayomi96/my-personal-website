@@ -64,12 +64,7 @@ const AboutPage = () => {
           <a href="https://chrome.google.com/webstore/detail/blink-alert/ecdcckdocbdegecfpmdgblfaiaplggob">
             Blink Alert
           </a>
-          ,{" "}
-          <a href="https://chrome.google.com/webstore/detail/internet-speed/hfdeahhjljnjddcjoglpodojkmeiahbl">
-            Internet Speed
-          </a>
-          , and a few other tools and contributions. I also just learnt to build
-          Django apps with Python and I'm loving it!.
+          , and a few other tools and contributions.
         </p>
         <p>
           You can follow the rest of my work & contributions on my{" "}
